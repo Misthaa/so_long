@@ -16,7 +16,7 @@ Je n'ai pas fait de règle bonus pour le projet car j'avais commencé a faire de
      - Gestion des déplacements
      - Détection de victoire
      - Dash (Teleportation de direction + 1)
-     - Monstre ()
+     - Monstre (Déplacement aléatoire (Si dash à travers le monstre = kill))
 -  **Affichage graphique** : Utilisation de la bibliothèque **MacroLibX** pour le rendu en 2D.
 -  **Gestion des erreurs** : Vérification des fichiers de carte (validité, dimensions, murs, etc.).
 -  **Système optimisé** : Prise en charge des événements clavier pour des mouvements fluides.
@@ -51,6 +51,7 @@ Je n'ai pas fait de règle bonus pour le projet car j'avais commencé a faire de
 
 ## 🎮 Contrôles du jeu  
 - **Z / Q / S / D** : Déplacer le personnage.
+- **Espace** : Dash (Direction personnage).
 - **Échap** : Quitter le jeu.
 
 ---
