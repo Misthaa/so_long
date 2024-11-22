@@ -11,7 +11,12 @@ Je n'ai pas fait de règle bonus pour le projet car j'avais commencé a faire de
 
 ## 🛠️ Fonctionnalités  
 -  **Gestion de carte** : Support des fichiers `.ber` pour définir les niveaux.
--  **Mécaniques de jeu** : Collecte d'objets, gestion des déplacements et détection de victoire.
+-  **Mécaniques de jeu** :
+     - Collecte d'objets
+     - Gestion des déplacements
+     - Détection de victoire
+     - Dash (Teleportation de direction + 1)
+     - Monstre ()
 -  **Affichage graphique** : Utilisation de la bibliothèque **MacroLibX** pour le rendu en 2D.
 -  **Gestion des erreurs** : Vérification des fichiers de carte (validité, dimensions, murs, etc.).
 -  **Système optimisé** : Prise en charge des événements clavier pour des mouvements fluides.
@@ -38,8 +43,15 @@ Je n'ai pas fait de règle bonus pour le projet car j'avais commencé a faire de
    ```bash
    ./so_long [map/valid_map/level3.ber]
    ```
+---
 
-![image](https://github.com/user-attachments/assets/a5165140-74db-4169-94db-76ffc46f9bfa)
+![Screencast-from-11-22-2024-06_32_25-PM](https://github.com/user-attachments/assets/3baa50ff-8c0b-4b8f-9c48-ac9b22ed64f2)
+
+---
+
+## 🎮 Contrôles du jeu  
+- **Z / Q / S / D** : Déplacer le personnage.
+- **Échap** : Quitter le jeu.
 
 ---
 
@@ -59,12 +71,6 @@ Exemple de fichier `.ber` :
 1C0E01
 111111
 ```
-
----
-
-## 🎮 Contrôles du jeu  
-- **Z / Q / S / D** : Déplacer le personnage.
-- **Échap** : Quitter le jeu.
 
 ---
 
