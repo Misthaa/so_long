@@ -30,7 +30,7 @@ Je n'ai pas fait de règle bonus pour le projet car j'avais commencé a faire de
    ```bash
    cd MacroLibX
    make
-   cd ...
+   cd ..
    make
    ```
 
